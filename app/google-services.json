@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752589053813",
+    "project_id": "aagnia-4d19f",
+    "storage_bucket": "aagnia-4d19f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752589053813:android:29f70a994f19a79fe47d3c",
+        "android_client_info": {
+          "package_name": "com.dineshdk.creativa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHa0HVcBVLKuhNmgIUgtOPSs6iO-7bSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
