@@ -10,7 +10,7 @@ import com.dineshdk.creativa.databinding.ActivityMainBinding
 import com.dineshdk.creativa.databinding.FragmentLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
     private lateinit var firebaseAuth: FirebaseAuth
@@ -31,5 +31,9 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
+    }
+
+    override open fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
     }
 }

@@ -172,7 +172,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/register_btn"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:text="By registering, you confirm that you accept our Terms of Use and Privacy Policy."/>
     <TextView
         android:id="@+id/btn_sign_in_facebook"
